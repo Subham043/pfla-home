@@ -251,6 +251,7 @@
         slidesPerView: 3,
         spaceBetween: 30,
         loop: true,
+        autoHeight:true,
         navigation: {
           nextEl: '.testimonial-active .swiper-button-next',
           prevEl: '.testimonial-active .swiper-button-prev',
@@ -284,6 +285,7 @@
     var swiper = new Swiper('.testimonial-2-active', {
         slidesPerView: 1,
         loop: true,
+        autoHeight:true,
         navigation: {
           nextEl: '.testimonial-2-active .swiper-button-next',
           prevEl: '.testimonial-2-active .swiper-button-prev',
@@ -299,6 +301,7 @@
     var swiper = new Swiper('.testimonial-4-active', {
         slidesPerView: 1,
         loop: true,
+        autoHeight:true,
         navigation: {
           nextEl: '.testimonial-4-active .swiper-button-next',
           prevEl: '.testimonial-4-active .swiper-button-prev',

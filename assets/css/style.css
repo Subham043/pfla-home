@@ -4450,6 +4450,7 @@ select {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   margin-top: 30px;
+  min-height: 460px;
 }
 
 .single-course .courses-image {
@@ -5813,6 +5814,10 @@ select {
   margin: 0;
   padding-bottom: 15px;
   max-width: 290px;
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 25px;
+  overflow-y: auto;
 }
 
 @media only screen and (max-width: 767px) {
@@ -8006,6 +8011,7 @@ select {
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 5px solid #0c96e2;
+  min-height: 145px;
 }
 
 .single-team .team-content .team-name-deg .name a {
