@@ -255,6 +255,9 @@
           nextEl: '.testimonial-active .swiper-button-next',
           prevEl: '.testimonial-active .swiper-button-prev',
         },
+        autoplay: {
+            delay: 5000,
+        },
         pagination: {
             el: ".testimonial-active .swiper-pagination",
             clickable: true,
@@ -285,6 +288,9 @@
           nextEl: '.testimonial-2-active .swiper-button-next',
           prevEl: '.testimonial-2-active .swiper-button-prev',
         },
+        // autoplay: {
+        //     delay: 5000,
+        // },
     });
 
     /*--
@@ -296,6 +302,9 @@
         navigation: {
           nextEl: '.testimonial-4-active .swiper-button-next',
           prevEl: '.testimonial-4-active .swiper-button-prev',
+        },
+        autoplay: {
+            delay: 5000,
         },
     });
 
