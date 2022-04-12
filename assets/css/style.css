@@ -12242,7 +12242,8 @@ select {
 }
 
 .footer-widget.widget-about {
-  padding-right: 70px;
+  /* padding-right: 70px; */
+  padding-right: 0px;
 }
 
 .footer-widget-title {
@@ -12397,7 +12398,7 @@ select {
 /*  31. Footer CSS
 /*----------------------------------------*/
 .footer-logo {
-  max-width: 150px;
+  max-width: 225px;
   height: 40px;
 }
 
@@ -12409,6 +12410,11 @@ select {
   border-top: 1px solid #FFFFFF26;
   padding-top: 15px;
   padding-bottom: 25px;
+}
+
+.certificate-img img{
+  height: 245px;
+  object-fit: contain;
 }
 
 .copyright-wrapper {
@@ -12427,6 +12433,7 @@ select {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+          justify-content: center;
 }
 
 @media only screen and (max-width: 767px) {
